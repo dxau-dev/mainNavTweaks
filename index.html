@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Navigation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+
+    <div class="nav-content">
+        <a href="/" class="logo">LOGO</a>
+        <div class="hamburger" id="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </div>
+
+    <div class="menu-container" id="menu-container">
+        <ul class="main-menu">
+
+            <li class="menu-item">
+                <div class="item-header">
+                    <a href="/service/">Service</a>
+                    <button class="dropdown-toggle" aria-label="Expand Service Menu"></button>
+                </div>
+                <ul class="sub-menu">
+                    <li><a href="/service/1">Service 1</a></li>
+                    <li><a href="/service/2">Service 2</a></li>
+                    <li><a href="/service/3">Service 3</a></li>
+                </ul>
+            </li>
+
+            <li class="menu-item">
+                <div class="item-header">
+                    <a href="/about/">About</a>
+                    <button class="dropdown-toggle" aria-label="Expand About Menu"></button>
+                </div>
+                <ul class="sub-menu">
+                    <li><a href="/about/history">History</a></li>
+                    <li><a href="/about/plans">Plans</a></li>
+                </ul>
+            </li>
+
+            <li class="menu-item">
+                <div class="item-header">
+                    <a href="/contact/">Contact</a>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+
+<main>
+    <h1>Welcome Home</h1>
+    <p>Select an item from the menu to see the delayed navigation effect.</p>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
